@@ -10,32 +10,32 @@ public class FrequenciaNotasMusical {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println(" Digite uma nota musical ");
+		System.out.println(" Digite uma nota musical: ");
 		char nota = scan.next().charAt(0);
 
 		switch (nota) {
 		case 'A' : {
-			System.out.println();
+			System.out.println(nota + " É a cifra da nota LÁ sua frequência e 220,044Hz. ");
 			break;
 		}
 		case 'B': {
-			System.out.println();
+			System.out.println(nota + " É a cifra da nota SI sua frequência e 247,500Hz. ");
 			break;
 		}
 		case 'C' : {
-			System.out.println();
+			System.out.println(nota + " É a cifra da nota DÓ sua frequência e 247,500Hz. ");
 			break;
 		}
 		case 'D': {
-			System.out.println();
+			System.out.println(nota + " É a cifra da nota RÉ sua frequência e 148,500Hz. ");
 			break;
 		}
 		case 'E':{
-			System.out.println();
+			System.out.println(nota + " É a cifra da nota MI sua frequência e 165,000Hz. ");
 			break;
 		}
 		case 'F':{
-			System.out.println();
+			System.out.println(nota + " É a cifra da nota FÁ sua frequência e 175,956Hz. ");
 			break;
 		}
 		default:
